@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-in</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="../assets/imagens/logoi.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/signin.css">
+    
+
+</head>
+<body>
+    <div class='container'>
+        <div class='card'>
+          <h1> Entrar </h1>
+          
+          <div id='msgError'></div>
+          
+          <div class='label-float'>
+            <input type='text' id='usuario' paceholder='' required>
+            <label id='userLabel' for='usuario'><i class="fa-solid fa-user"></i> Digite seu nome de usuário </label>
+          </div>
+          
+          <div class='label-float'>
+            <input type='password' id='senha' paceholder='' required>
+            <label id='senhaLabel' for='senha'><i class="fa-solid fa-lock"></i> Digite sua senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class='justify-center'>
+            <button onclick='entrar()'>Entrar</button>
+          </div>
+          
+          <div class='justify-center'>
+            <hr>
+          </div>
+          
+          <p> Não tem uma conta?
+            <a href='./signup.html'> Criar conta </a>
+          </p>
+          
+        </div>
+        </div>
+        <script src="../js/signin.js"></script>
+        <script src="https://kit.fontawesome.com/3444d49a9e.js" crossorigin="anonymous"></script>
+      </body>
+</html>

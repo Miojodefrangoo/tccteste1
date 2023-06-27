@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/imagens/logoi.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/signup.css">
+    
+    <title>Cadastrar</title>
+</head>
+<body>
+    <div class='container'>
+     
+        <div class='card'>
+
+
+         
+         <div id="logoi">
+          <img src="../imagens/logoi.ico" alt="" width="80px">
+         </div>
+         <div id="titulo">
+          <h1> Crie sua conta </h1>
+         </div>
+         <div id="clear"></div>
+         
+          <div id='msgError'></div>
+          <div id='msgSuccess'></div>
+          
+                  <div class="label-float">
+                     <input type="text" id="nome" placeholder=" " required>
+                     <label id="labelNome" for="nome"></i><i class="fa-solid fa-user"> </i> Seu nome completo</label>
+                  </div>
+      
+                  <div class="label-float">
+                     <input type="text" id="usuario" placeholder=" " required>
+                     <label id="labelUsuario" for="usuario"></i><i class="fa-solid fa-user"> </i> Nome de Usuário</label>
+                  </div>
+                  
+                  <div class="label-float">
+                     <input type="password" id="senha" placeholder=" " required>
+                     <label id="labelSenha" for="senha"><i class="fa-solid fa-lock"></i> Digite uma senha</label>
+                     <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                     
+                  </div>
+      
+                  <div class="label-float">
+                     <input type="password" id="confirmSenha" placeholder=" " required>
+                     <label id="labelConfirmSenha" for="confirmSenha"><i class="fa-solid fa-lock"></i> Repita sua senha</label>
+                     <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                  </div>
+                  
+                  <div class='justify-center'>
+                     <button onclick='cadastrar()'>Criar conta</button>
+                  </div>
+      
+          
+        </div>
+        </div>
+        <script src="../js/signup.js"></script>
+        <script src="https://kit.fontawesome.com/3444d49a9e.js" crossorigin="anonymous"></script>
+</body>
+</html>
